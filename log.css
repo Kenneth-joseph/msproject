@@ -1,0 +1,144 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Gill Sans';
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("pictures/log1.JPG") no-repeat center/cover;
+}
+
+/*nav*/
+
+nav {
+  
+  height:30%;
+  position:relative;
+  background-color: whitesmoke;
+  padding: 10px;
+  opacity:0.8;
+  top:0;
+  left:0;
+  right:0;
+
+}
+
+nav ul{
+text-align:right;
+}
+
+ul li a{
+  text-decoration:none;
+  color:lightslategray;
+  
+}
+
+nav ul li
+{
+padding:25px;
+text-transform:uppercase;
+display: inline;
+font-size:14px;
+margin-right:10px;
+font-style:arial;
+}
+
+nav a:active{
+  color:white;
+}
+
+a:visited{
+  color:goldenrod;
+}
+nav a:hover{
+background-color:black;
+}
+
+/*form*/
+form{
+    border:2px solid white;
+    border-radius: 3px;
+    padding: 20px;
+    
+  }
+ 
+  container1{
+   display: flex;
+   justify-content:space-around;
+   margin-top:170px;
+   font-size:15px;
+   margin-bottom:200px;
+  }
+  label,input{
+    margin:5px;
+   
+  }
+  label{
+    font-size:20px;
+    color:skyblue;
+  }
+ 
+  input {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 4px 0;
+   box-sizing: border-box;
+   font-size: 18px;
+   font-family:sans-serif;
+   border:none;
+   border-bottom: 2px solid brown;
+   background-color:white;
+ }
+ input[type=submit]{
+   width:50%;
+   background-color: gray;
+ }
+ 
+  #log h4{
+    text-align: center;
+   margin-bottom: 15px;
+   font-size: 20px;
+   background-color:red; 
+   width:40%;
+   margin-left:94px;
+   border:2px solid black;
+    
+  }
+/*footer*/
+
+.section nav{
+  /* display: flex; */
+  position: relative;
+  background-color:black;
+  text-align: center;
+  font-size: 15px;
+  color:whitesmoke;
+}
+ /*gallery*/
+
+ container22{
+   display: flex;
+   justify-content: space-between;
+   margin-top:40px;  
+ }
+  
+ figcaption img{
+   border:2px solid white;
+ }
+
+ container3{
+  display: flex;
+  justify-content: space-between;
+  margin-top:40px;
+  margin-bottom: 100px;  
+}
+figcaption p{
+  color:white;
+  font-family:cursive;
+  font-size:20px;
+}
+.section nav img{
+  margin:50px;
+}
+ 
